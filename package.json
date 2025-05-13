@@ -2,12 +2,15 @@
   "name": "react_repo",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://big-cat-lovely.io//personal-growth-site",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview"，
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
