@@ -5,12 +5,12 @@
   "homepage": "https://big-cat-lovely.io//personal-growth-site",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"，
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "lint": "eslint .",
+  "preview": "vite preview", // 如果这是最后一个脚本，这里不应有逗号
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist" // 这是最后一个脚本，所以这里没有逗号
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
