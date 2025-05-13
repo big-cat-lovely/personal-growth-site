@@ -8,9 +8,9 @@
   "dev": "vite",
   "build": "tsc -b && vite build",
   "lint": "eslint .",
-  "preview": "vite preview", // 如果这是最后一个脚本，这里不应有逗号
+  "preview": "vite preview", 
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist" // 这是最后一个脚本，所以这里没有逗号
+  "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
